@@ -1,0 +1,72 @@
+.campaign-type h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #160831;
+  margin-bottom: 30px;
+}
+
+/* .campaign-type .type-box {
+  display: flex;
+  gap: 24px;
+} */
+.campaign-type .type-item{
+
+border-radius: 8px !important;
+}
+
+
+.campaign-type .type-box .type-item .form-check {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.campaign-type .type-box .type-item .form-check .input-radio {
+  margin-right: 24px;
+  width: 24px;
+  height: 24px;
+  accent-color: #632cc7;
+}
+
+
+.campaign-type .type-box .type-item .form-check .form-check-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #160831;
+}
+
+.campaign-type .type-box .type-item .form-check .form-check-label p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #635978;
+  margin-bottom: 0;
+}
+
+
+
+
+.shadow-active {
+    box-shadow: 0px 4px 0px #632cc7;
+    border-radius:0 0 20px 20px;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+.form-check .inputF .input-radio:checked ~ .shadow-active {
+    display: block;
+}
+
+
+.optionHeader{
+  font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+color: #160831;
+margin-bottom: 30px;
+}
